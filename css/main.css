@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+
+#container{
+	margin: 0 auto;
+	text-align: center;
+}
+
+video{
+	width: 100%; /*allows video to scale with page*/
+}
+
+button{
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 1.5em;
+	border-radius: 8px;
+	margin-right: 10px;
+}
