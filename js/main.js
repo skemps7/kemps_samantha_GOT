@@ -62,11 +62,11 @@ function togglePlay(){
 }
 
 function ffWdVid(){
-	debugger;
+	vidPlayer.currentTime +=15;
 }
 
-function rWndVid(){
-	debugger;
+function rWdVid(){
+	vidPlayer.currentTime -=15;
 }
 
 //events
@@ -77,7 +77,7 @@ vidPlayer.addEventListener('ended',closeLBox);
 
 playPause.addEventListener('click', togglePlay);
 
-rWnd.addEventListener('click', rWndVid);
+rWnd.addEventListener('click', rWdVid);
 
-ffWd.addEventListener('click', fWndVid);
+ffWd.addEventListener('click', ffWdVid);
 })();
